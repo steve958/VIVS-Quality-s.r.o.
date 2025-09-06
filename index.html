@@ -1,0 +1,685 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="VIVS Quality s.r.o. - Reliable international transport, courier, and delivery services across the EU." name="description"/>
+<meta content="transport, logistics, courier, EU transport, VIVS Quality, van delivery" name="keywords"/>
+<meta content="VIVS Quality s.r.o." name="author"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Reliable EU-wide transport with cargo vans up to 3.5t. VIVS Quality offers international delivery and courier services." name="description"/>
+<meta content="transport, courier, EU delivery, logistics, van, 3.5t, Slovakia" name="keywords"/>
+<meta content="VIVS Quality s.r.o." name="author"/>
+<title>VIVS Quality s.r.o. | Professional Transport Services</title>
+<meta content="VIVS Quality s.r.o. | EU Transport &amp; Courier" property="og:title"/>
+<meta content="Reliable cargo van transport across the EU. Courier, delivery and logistics services up to 3.5t." property="og:description"/>
+<meta content="logo.jpg" property="og:image"/>
+<meta content="https://vivsquality.com" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<!-- Performance Optimized Resources -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://unpkg.com">
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
+<!-- Critical CSS inline for above-the-fold content -->
+<style>
+/* Critical above-the-fold styles */
+:root{--primary-blue:#1B365D;--secondary-orange:#F39C12;--pure-white:#FFFFFF;--dark-gray:#2C3E50;--font-heading:'Montserrat',sans-serif}
+body{margin:0;font-family:'Inter',sans-serif;color:var(--dark-gray);display:flex;flex-direction:column;min-height:100vh;background:var(--pure-white);line-height:1.6}
+.top-header{background:var(--primary-blue);color:var(--pure-white);padding:0.5rem 0;font-size:0.875rem}
+.main-header{background:var(--pure-white);box-shadow:0 2px 10px rgba(0,0,0,0.1);position:sticky;top:0;z-index:1000}
+.hero{min-height:70vh;background:linear-gradient(135deg,rgba(27,54,93,0.9) 0%,rgba(243,156,18,0.8) 100%);color:var(--pure-white);padding:4rem 2rem;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+</style>
+
+<!-- Async load non-critical resources -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="style.css" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+function googleTranslateElementInit() {
+  try {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en',
+      includedLanguages: 'en,sr,sk,de',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay: false
+    }, 'google_translate_element');
+    console.log('Google Translate initialized successfully');
+  } catch(e) {
+    console.log('Google Translate failed to initialize:', e);
+  }
+}
+function GTranslateFireEvent(element,event){
+  try {
+    if(document.createEventObject) {
+      var evt = document.createEventObject();
+      element.fireEvent('on'+event,evt)
+    } else {
+      var evt = document.createEvent("HTMLEvents");
+      evt.initEvent(event,true,true);
+      element.dispatchEvent(evt)
+    }
+  } catch(e) {}
+}
+function doGTranslate(lang_pair) {
+  console.log('Translation requested:', lang_pair);
+  if (lang_pair.value) lang_pair = lang_pair.value;
+  if (lang_pair == '') return;
+  
+  var lang = lang_pair.split('|')[1];
+  console.log('Target language:', lang);
+  
+  // Check if Google Translate widget exists
+  var translateElement = document.getElementById('google_translate_element');
+  console.log('Google Translate element:', translateElement);
+  console.log('Google Translate element content:', translateElement ? translateElement.innerHTML : 'null');
+  
+  // Function to attempt translation
+  function attemptTranslation(retryCount) {
+    var select = document.querySelector('select.goog-te-combo');
+    var iframe = document.querySelector('iframe.goog-te-menu-frame');
+    
+    console.log('Attempt', retryCount, '- Select found:', select);
+    console.log('Attempt', retryCount, '- Iframe found:', iframe);
+    
+    if (select) {
+      select.value = lang;
+      select.dispatchEvent(new Event('change'));
+      console.log('Translation triggered for:', lang);
+      return true;
+    } else if (retryCount < 5) {
+      console.log('Google Translate not ready, retrying in 1 second...');
+      setTimeout(function() {
+        attemptTranslation(retryCount + 1);
+      }, 1000);
+    } else {
+      console.log('Google Translate failed to load after 5 attempts');
+    }
+    return false;
+  }
+  
+  // Start attempting translation
+  setTimeout(function() {
+    attemptTranslation(1);
+  }, 1000);
+}
+</script>
+<style>
+.goog-te-banner-frame.skiptranslate, .goog-logo-link {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+</style></head>
+<body>
+<!-- Top Header -->
+<div class="top-header">
+  <div class="container">
+    <div class="contact-info">
+      <span><i class="fas fa-phone"></i> +421 911 868 337</span>
+      <span><i class="fas fa-envelope"></i> vivsquality@gmail.com</span>
+      <span><i class="fas fa-map-marker-alt"></i> Bratislava, Slovakia</span>
+    </div>
+    <div class="language-switcher">
+      <img alt="English" onclick="doGTranslate('en|en')" src="https://flagcdn.com/w40/gb.png" title="English"/>
+      <img alt="Srpski" onclick="doGTranslate('en|sr')" src="https://flagcdn.com/w40/rs.png" title="Srpski"/>
+      <img alt="Slovensky" onclick="doGTranslate('en|sk')" src="https://flagcdn.com/w40/sk.png" title="Slovenský"/>
+      <img alt="Deutsch" onclick="doGTranslate('en|de')" src="https://flagcdn.com/w40/de.png" title="Deutsch"/>
+    </div>
+  </div>
+</div>
+
+<!-- Google Translate Element (hidden but functional) -->
+<div id="google_translate_element" style="position: absolute; left: -9999px; opacity: 0;"></div>
+
+<!-- Main Header -->
+<header class="main-header">
+  <nav class="navbar">
+    <div class="logo-section">
+      <img alt="VIVS Quality Logo" src="logo.jpg" width="50" height="50" loading="eager"/>
+      <div class="company-name">VIVS Quality s.r.o.</div>
+    </div>
+    
+    <ul class="nav-menu" role="menubar" aria-label="Main navigation">
+      <li role="none"><a href="index.html" class="active" role="menuitem" aria-current="page">Home</a></li>
+      <li role="none"><a href="about.html" role="menuitem">About</a></li>
+      <li role="none"><a href="gallery.html" role="menuitem">Gallery</a></li>
+      <li role="none"><a href="careers.html" role="menuitem">Careers</a></li>
+      <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+    </ul>
+    
+    <div class="cta-nav">
+      <a href="contact.html" class="btn-quote">Get Quote</a>
+      <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-menu">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- Hero Section -->
+<section class="hero" role="banner" aria-label="Main hero section">
+<!-- Hero Content -->
+<div class="hero-content">
+<div class="hero-badge" data-aos="fade-down">
+<span>🚚</span>
+<span>Professional Transport Services</span>
+</div>
+<h1 data-aos="fade-up" data-aos-delay="200">
+<span class="hero-title-main">Your Partner in</span>
+<span class="hero-title-accent">Delivery</span>
+</h1>
+<p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">
+Reliable EU-wide transport with cargo vans up to 3.5t
+</p>
+<p class="hero-description" data-aos="fade-up" data-aos-delay="500">
+Professional courier & logistics services across Europe with modern fleet and experienced drivers.
+</p>
+<div class="hero-cta" data-aos="fade-up" data-aos-delay="600">
+<a class="cta-button primary" href="contact.html">
+<i class="fas fa-calculator"></i>
+Get Free Quote
+</a>
+<a class="cta-button secondary" href="about.html">
+<i class="fas fa-arrow-right"></i>
+Learn More
+</a>
+</div>
+</div>
+</section>
+<main role="main">
+<section class="section" aria-labelledby="services-heading">
+<div class="section-header">
+<h2 id="services-heading" class="section-title">Our Services</h2>
+<p class="section-subtitle">Comprehensive transport solutions across Europe with modern fleet and professional service</p>
+</div>
+<div class="cards" role="list">
+<div class="card" data-aos="fade-up" data-aos-delay="100" role="listitem">
+<div class="card-icon" aria-hidden="true">
+<i class="fas fa-truck"></i>
+</div>
+<h3>International Transport</h3>
+<p>Fast and secure delivery across the European Union with full tracking and insurance coverage.</p>
+<div class="card-feature">
+<div class="feature-icon"><i class="fas fa-check"></i></div>
+<span>EU-wide coverage</span>
+</div>
+<div class="card-feature">
+<div class="feature-icon"><i class="fas fa-check"></i></div>
+<span>Real-time tracking</span>
+</div>
+</div>
+<div class="card" data-aos="fade-up" data-aos-delay="200">
+<div class="card-icon">
+<i class="fas fa-shipping-fast"></i>
+</div>
+<h3>Express Courier</h3>
+<p>Same-day and next-day delivery for urgent parcels and documents with priority handling.</p>
+<div class="card-feature">
+<div class="feature-icon"><i class="fas fa-check"></i></div>
+<span>24-48h delivery</span>
+</div>
+<div class="card-feature">
+<div class="feature-icon"><i class="fas fa-check"></i></div>
+<span>Document handling</span>
+</div>
+</div>
+<div class="card" data-aos="fade-up" data-aos-delay="300">
+<div class="card-icon">
+<i class="fas fa-warehouse"></i>
+</div>
+<h3>Cargo Vans up to 3.5t</h3>
+<p>Perfect for small to medium businesses, e-commerce fulfillment and specialized logistics needs.</p>
+<div class="card-feature">
+<div class="feature-icon"><i class="fas fa-check"></i></div>
+<span>Flexible capacity</span>
+</div>
+<div class="card-feature">
+<div class="feature-icon"><i class="fas fa-check"></i></div>
+<span>Professional drivers</span>
+</div>
+</div>
+<div class="card" data-aos="fade-up" data-aos-delay="400">
+<div class="card-icon">
+<i class="fas fa-snowflake"></i>
+</div>
+<h3>Refrigerated Transport</h3>
+<p>Temperature-controlled transport for perishable goods, pharmaceuticals and sensitive cargo.</p>
+<div class="card-feature">
+<div class="feature-icon"><i class="fas fa-check"></i></div>
+<span>Temperature monitoring</span>
+</div>
+<div class="card-feature">
+<div class="feature-icon"><i class="fas fa-check"></i></div>
+<span>Compliance certified</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Statistics Section -->
+<section class="stats-section">
+<div class="section-header">
+<h2 class="section-title">Our Track Record</h2>
+<p class="section-subtitle">Numbers that speak for our reliability and experience</p>
+</div>
+<div class="stats-grid">
+<div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+<div class="stat-number">5+</div>
+<div class="stat-label">Years Experience</div>
+</div>
+<div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+<div class="stat-number">10K+</div>
+<div class="stat-label">Deliveries Completed</div>
+</div>
+<div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+<div class="stat-number">1M+</div>
+<div class="stat-label">Kilometers Traveled</div>
+</div>
+<div class="stat-card" data-aos="fade-up" data-aos-delay="400">
+<div class="stat-number">300+</div>
+<div class="stat-label">Happy Clients</div>
+</div>
+</div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section class="section">
+<div class="section-header">
+<h2 class="section-title">Why Choose VIVS Quality?</h2>
+<p class="section-subtitle">What sets us apart in the competitive logistics market</p>
+</div>
+<div class="cards">
+<div class="card" data-aos="zoom-in" data-aos-delay="100">
+<div class="card-icon">
+<i class="fas fa-globe-europe"></i>
+</div>
+<h3>EU-Wide Coverage</h3>
+<p>Complete coverage across all European Union countries with reliable delivery networks and local partnerships.</p>
+</div>
+<div class="card" data-aos="zoom-in" data-aos-delay="200">
+<div class="card-icon">
+<i class="fas fa-truck-moving"></i>
+</div>
+<h3>Modern Fleet</h3>
+<p>Iveco and Fiat Ducato vans, professionally maintained and GPS equipped for optimal performance and tracking.</p>
+</div>
+<div class="card" data-aos="zoom-in" data-aos-delay="300">
+<div class="card-icon">
+<i class="fas fa-headset"></i>
+</div>
+<h3>Professional Support</h3>
+<p>Multilingual customer support in English, Slovak, Serbian, and German - always ready to assist you.</p>
+</div>
+<div class="card" data-aos="zoom-in" data-aos-delay="400">
+<div class="card-icon">
+<i class="fas fa-heart"></i>
+</div>
+<h3>Personalized Service</h3>
+<p>Every shipment receives individual attention - no automated processes, just human care and expertise.</p>
+</div>
+<div class="card" data-aos="zoom-in" data-aos-delay="500">
+<div class="card-icon">
+<i class="fas fa-clock"></i>
+</div>
+<h3>Fast Response</h3>
+<p>Immediate response to transport requests with flexible scheduling and emergency delivery options available.</p>
+</div>
+<div class="card" data-aos="zoom-in" data-aos-delay="600">
+<div class="card-icon">
+<i class="fas fa-shield-alt"></i>
+</div>
+<h3>Insured & Secure</h3>
+<p>Full insurance coverage for all shipments with secure handling procedures and liability protection.</p>
+</div>
+</div>
+</section>
+<section class="services">
+<div class="section-header">
+<h2 class="section-title">Value We Deliver</h2>
+<p class="section-subtitle">Comprehensive features and services that make us your trusted logistics partner</p>
+</div>
+<div class="service-grid">
+<div class="service-box" data-aos="zoom-in">
+<h3>Modern fleet</h3>
+<p>Our vehicles (including IVECO and Fiat Ducato) are regularly serviced and fully equipped for short and long-haul EU transport.</p>
+</div>
+<div class="service-box" data-aos="zoom-in">
+<h3>Real-time GPS tracking</h3>
+<p>Clients can track shipments at any moment, ensuring transparency, control, and peace of mind.</p>
+</div>
+<div class="service-box" data-aos="zoom-in">
+<h3>Refrigerated vans</h3>
+<p>We offer temperature-controlled transport for perishable goods, ensuring freshness and compliance with industry standards.</p>
+</div>
+<div class="service-box" data-aos="zoom-in">
+<h3>Flexible Scheduling</h3>
+<p>We adapt to your needs – offering pickups and deliveries even during weekends and non-standard hours.</p>
+</div>
+<div class="service-box" data-aos="zoom-in">
+<h3>Tailored Logistics Solutions</h3>
+<p>Every shipment is different. We offer customized routes, load handling, and delivery plans to meet your exact requirements.</p>
+</div>
+</div>
+</section>
+<section class="careers-section">
+<div class="career-left">
+<div class="section-header">
+<h2 class="section-title">Join Our Growing Team</h2>
+<p class="section-subtitle">Be part of our journey across Europe with professional opportunities and career growth</p>
+</div>
+<p>VIVS Quality s.r.o. is constantly expanding. We're always looking for reliable and motivated individuals to join our team of professional drivers and logistics support. If you're passionate about transport and want to be part of a modern and dynamic company, we'd love to hear from you.</p>
+<p>Our fleet includes state-of-the-art vans and our operations span across the entire EU. Become a part of our story and grow with us!</p>
+<img alt="VIVS Quality Company" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" src="logo.jpg" style="max-width:100%; height:auto; border-radius: 10px; display: block; margin: 0 auto;"/>
+</div>
+<div class="career-right">
+<h3>Send Your Application</h3>
+<form action="mailto:vivsquality@gmail.com" class="career-form" enctype="multipart/form-data" method="POST">
+<label for="fname">First Name:</label>
+<input id="fname" name="fname" required="" type="text"/>
+<label for="lname">Last Name:</label>
+<input id="lname" name="lname" required="" type="text"/>
+<label for="phone">Phone Number:</label>
+<input id="phone" name="phone" required="" type="text"/>
+<label for="email">Email:</label>
+<input id="email" name="email" required="" type="email"/>
+<label for="message">Message:</label>
+<textarea id="message" name="message" style="font-family: 'Open Sans', Courier, monospace;" placeholder="Briefly describe your motivation..." rows="4"></textarea>
+<label for="cv">Attach CV:</label>
+<input accept=".pdf,.doc,.docx" id="cv" name="cv" type="file"/>
+<button type="submit">Apply Now</button>
+</form>
+</div>
+</section>
+</main>
+<!-- Load AOS library asynchronously -->
+<script async src="https://unpkg.com/aos@2.3.1/dist/aos.js" onload="initAOS()"></script>
+<script>
+    // Initialize AOS when library loads
+    function initAOS() {
+      if (typeof AOS !== 'undefined') {
+        AOS.init({
+          duration: 800,
+          easing: 'ease-in-out',
+          once: true,
+          offset: 100
+        });
+      }
+    }
+    
+    // Fallback if AOS doesn't load
+    setTimeout(() => {
+      if (typeof AOS === 'undefined') {
+        console.log('AOS library failed to load, continuing without animations');
+      }
+    }, 3000);
+    
+    // Mobile menu toggle with accessibility
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+      const navMenu = document.querySelector('.nav-menu');
+      const isExpanded = navMenu.classList.contains('active');
+      
+      navMenu.classList.toggle('active');
+      
+      // Update ARIA attributes
+      this.setAttribute('aria-expanded', !isExpanded);
+      
+      const icon = this.querySelector('i');
+      if (!isExpanded) {
+        icon.className = 'fas fa-times';
+        // Focus first menu item when menu opens
+        setTimeout(() => {
+          const firstMenuItem = navMenu.querySelector('a');
+          if (firstMenuItem) firstMenuItem.focus();
+        }, 100);
+      } else {
+        icon.className = 'fas fa-bars';
+      }
+    });
+    
+    // Keyboard navigation for mobile menu
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        const navMenu = document.querySelector('.nav-menu');
+        const toggleBtn = document.querySelector('.mobile-menu-toggle');
+        if (navMenu.classList.contains('active')) {
+          navMenu.classList.remove('active');
+          toggleBtn.setAttribute('aria-expanded', 'false');
+          toggleBtn.querySelector('i').className = 'fas fa-bars';
+          toggleBtn.focus();
+        }
+      }
+    });
+    
+    // Quote Calculator
+    const quoteForm = document.getElementById('quoteForm');
+    if (quoteForm) {
+      quoteForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const fromCountry = document.getElementById('fromCountry').value;
+      const toCountry = document.getElementById('toCountry').value;
+      const weight = parseFloat(document.getElementById('weight').value);
+      const serviceType = document.getElementById('serviceType').value;
+      
+      if (!fromCountry || !toCountry || !weight || !serviceType) {
+        alert('Please fill in all fields');
+        return;
+      }
+      
+      // Simple pricing logic (base price + distance + weight + service multipliers)
+      const basePrices = {
+        'SK-SK': 25, 'SK-CZ': 45, 'SK-AT': 55, 'SK-HU': 50, 'SK-DE': 75, 'SK-PL': 65,
+        'CZ-SK': 45, 'CZ-CZ': 25, 'CZ-AT': 50, 'CZ-HU': 60, 'CZ-DE': 70, 'CZ-PL': 55,
+        'AT-SK': 55, 'AT-CZ': 50, 'AT-AT': 25, 'AT-HU': 55, 'AT-DE': 45, 'AT-PL': 75,
+        'HU-SK': 50, 'HU-CZ': 60, 'HU-AT': 55, 'HU-HU': 25, 'HU-DE': 80, 'HU-PL': 70,
+        'DE-SK': 75, 'DE-CZ': 70, 'DE-AT': 45, 'DE-HU': 80, 'DE-DE': 30, 'DE-PL': 65,
+        'PL-SK': 65, 'PL-CZ': 55, 'PL-AT': 75, 'PL-HU': 70, 'PL-DE': 65, 'PL-PL': 25
+      };
+      
+      const route = fromCountry + '-' + toCountry;
+      let basePrice = basePrices[route] || 60;
+      
+      // Weight multiplier
+      let weightMultiplier = 1;
+      if (weight > 100) weightMultiplier = 1.2;
+      if (weight > 500) weightMultiplier = 1.5;
+      if (weight > 1000) weightMultiplier = 2;
+      if (weight > 2000) weightMultiplier = 2.5;
+      
+      // Service type multiplier
+      const serviceMultipliers = {
+        'standard': 1,
+        'express': 1.4,
+        'same-day': 1.8
+      };
+      
+      const finalPrice = Math.round(basePrice * weightMultiplier * serviceMultipliers[serviceType]);
+      
+      // Show result
+      document.getElementById('estimatedPrice').textContent = '€' + finalPrice;
+      document.getElementById('quoteResult').classList.add('show');
+      
+      // Scroll to result
+      document.getElementById('quoteResult').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+    }
+    
+    // Country card interaction
+    document.querySelectorAll('.country-card').forEach(card => {
+      card.addEventListener('click', function() {
+        const country = this.getAttribute('data-country');
+        alert(`Delivery to ${country} - Contact us for specific routes and pricing!`);
+      });
+    });
+  </script>
+<!-- Floating Contact Buttons -->
+<div class="floating-contacts">
+<a href="tel:+421911868337" class="floating-btn phone" title="Call Us">
+<i class="fas fa-phone"></i>
+</a>
+<a href="mailto:vivsquality@gmail.com" class="floating-btn email" title="Email Us">
+<i class="fas fa-envelope"></i>
+</a>
+</div>
+<!-- Interactive Coverage Map -->
+<section class="coverage-section">
+<div class="section-header">
+<h2 class="section-title">Where We Operate</h2>
+<p class="section-subtitle">Comprehensive coverage across Europe with reliable delivery networks</p>
+</div>
+<div class="coverage-map">
+<div class="coverage-grid">
+<div class="country-card" data-country="Slovakia" data-aos="flip-left" data-aos-delay="100">
+<div class="country-flag">🇸🇰</div>
+<div class="country-name">Slovakia</div>
+<div class="country-status">Base Location</div>
+</div>
+<div class="country-card" data-country="Germany" data-aos="flip-left" data-aos-delay="150">
+<div class="country-flag">🇩🇪</div>
+<div class="country-name">Germany</div>
+<div class="country-status">24h Delivery</div>
+</div>
+<div class="country-card" data-country="Austria" data-aos="flip-left" data-aos-delay="200">
+<div class="country-flag">🇦🇹</div>
+<div class="country-name">Austria</div>
+<div class="country-status">Express Available</div>
+</div>
+<div class="country-card" data-country="Czech Republic" data-aos="flip-left" data-aos-delay="250">
+<div class="country-flag">🇨🇿</div>
+<div class="country-name">Czech Rep.</div>
+<div class="country-status">Same Day</div>
+</div>
+<div class="country-card" data-country="Hungary" data-aos="flip-left" data-aos-delay="300">
+<div class="country-flag">🇭🇺</div>
+<div class="country-name">Hungary</div>
+<div class="country-status">Express Available</div>
+</div>
+<div class="country-card" data-country="Poland" data-aos="flip-left" data-aos-delay="350">
+<div class="country-flag">🇵🇱</div>
+<div class="country-name">Poland</div>
+<div class="country-status">24-48h</div>
+</div>
+</div>
+<div class="coverage-note">
+<p><i class="fas fa-info-circle"></i> Additional EU countries available on request. Contact us for specific route availability and delivery times.</p>
+</div>
+</div>
+</section>
+<!-- Quick Quote Calculator -->
+<section class="quote-calculator">
+<div class="calculator-container">
+<h2 class="section-title" style="color: white;">Get Instant Quote</h2>
+<p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Calculate your shipping costs in seconds</p>
+<form class="calculator-form" id="quoteForm" role="form" aria-label="Shipping quote calculator">
+<div class="form-group">
+<label for="fromCountry">From</label>
+<select id="fromCountry" required aria-describedby="from-help">
+<option value="">Select origin</option>
+<option value="SK">Slovakia</option>
+<option value="DE">Germany</option>
+<option value="AT">Austria</option>
+<option value="CZ">Czech Republic</option>
+<option value="HU">Hungary</option>
+<option value="PL">Poland</option>
+</select>
+</div>
+<div class="form-group">
+<label for="toCountry">To</label>
+<select id="toCountry" required>
+<option value="">Select destination</option>
+<option value="SK">Slovakia</option>
+<option value="DE">Germany</option>
+<option value="AT">Austria</option>
+<option value="CZ">Czech Republic</option>
+<option value="HU">Hungary</option>
+<option value="PL">Poland</option>
+</select>
+</div>
+<div class="form-group">
+<label for="weight">Weight (kg)</label>
+<input type="number" id="weight" placeholder="0" min="1" max="3500" required>
+</div>
+<div class="form-group">
+<label for="serviceType">Service Type</label>
+<select id="serviceType" required>
+<option value="">Select service</option>
+<option value="standard">Standard (2-3 days)</option>
+<option value="express">Express (24-48h)</option>
+<option value="same-day">Same Day</option>
+</select>
+</div>
+<button type="submit" class="btn-primary calculate-btn">
+<i class="fas fa-calculator"></i>
+Calculate Price
+</button>
+</form>
+<div class="quote-result" id="quoteResult">
+<h3>Estimated Price</h3>
+<div class="estimated-price" id="estimatedPrice">€0</div>
+<p><i class="fas fa-info-circle"></i> Final price may vary based on exact pickup/delivery locations and additional services</p>
+<a href="contact.html" class="btn-primary" style="margin-top: 1rem;">
+<i class="fas fa-envelope"></i>
+Get Official Quote
+</a>
+</div>
+</div>
+</section>
+<section class="why-us section" style="background-color: #f9f9f9;">
+<div class="section-header">
+<h2 class="section-title">Why Choose Us?</h2>
+<p class="section-subtitle">Key advantages that make VIVS Quality your ideal logistics partner</p>
+</div>
+<ul style="list-style:none; padding:0; max-width: 800px; margin:auto;">
+<li>✅ Fast and secure transport</li>
+<li>✅ Experienced team</li>
+<li>✅ EU-wide coverage</li>
+<li>✅ Affordable pricing</li>
+</ul>
+</section>
+<section class="stats" style="padding: 3rem 1rem; background:#333; color:white; text-align: center;">
+<div class="section-header">
+<h2 class="section-title" style="color: white;">Our Numbers</h2>
+<p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Performance metrics that demonstrate our reliability and experience</p>
+</div>
+<div style="display:flex; flex-wrap: wrap; justify-content:center; gap:2rem; margin-top:2rem;">
+<div><h3 style="color: #f9f9f9">5+</h3><p>Years of Experience</p></div>
+<div><h3 style="color: #f9f9f9">10,000+</h3><p>Deliveries Completed</p></div>
+<div><h3 style="color: #f9f9f9">1,000,000+</h3><p>Kilometers Traveled</p></div>
+<div><h3 style="color: #f9f9f9">300+</h3><p>Happy Clients</p></div>
+</div>
+</section>
+<section class="mini-contact" style="padding: 3rem 1rem; background-color:#fff; text-align: center;">
+<div class="section-header">
+<h2 class="section-title">Send Quick Inquiry</h2>
+<p class="section-subtitle">Get in touch with us quickly for any transport questions or requests</p>
+</div>
+<form action="mailto:vivsquality@gmail.com" enctype="text/plain" method="POST" style="max-width: 600px; margin:auto;">
+<input name="name" placeholder="Your Name" required="" style="width:100%; padding:10px; margin:10px 0;" type="text"/>
+<input name="email" placeholder="Your Email" required="" style="width:100%; padding:10px; margin:10px 0;" type="email"/>
+<textarea name="message" placeholder="Your Message" rows="4" style="width:100%; padding:10px;"></textarea>
+<button style="margin-top:1rem; padding:10px 20px; background:var(--primary-blue); color:white; border:none; border-radius:6px; font-weight:500; cursor:pointer;" type="submit">Send</button>
+</form>
+</section>
+<section class="socials" style="padding: 3rem 1rem; background:#f9f9f9; text-align: center;">
+<div class="section-header">
+<h2 class="section-title">Follow Us</h2>
+<p class="section-subtitle">Stay in touch with us on social media for updates and news</p>
+</div>
+<a href="#" style="margin: 0 10px;"><i class="fab fa-facebook fa-2x"></i></a>
+<a href="#" style="margin: 0 10px;"><i class="fab fa-instagram fa-2x"></i></a>
+</section>
+<section class="cta-footer" style="padding: 3rem 1rem; background:var(--primary-blue); color:white; text-align: center;">
+<div class="section-header">
+<h2 class="section-title">Ready to ship across Europe?</h2>
+<p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Contact us today for reliable and professional transport services</p>
+</div>
+<a href="contact.html" style="padding: 1rem 2rem; background:var(--secondary-orange); color:white; text-decoration:none; font-weight:bold; border-radius:50px; display:inline-block; transition:all 0.3s ease;">Get a Quote</a>
+</section>
+<footer class="footer">
+  © 2025 VIVS Quality s.r.o. All rights reserved.
+</footer>
+</body>
+</html>
