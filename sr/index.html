@@ -268,7 +268,6 @@ Saznaj više
 </section>
 </main>
 
-<script async src="https://unpkg.com/aos@2.3.1/dist/aos.js" onload="initAOS()"></script>
 <script>
     function initAOS() {
       if (typeof AOS !== 'undefined') {
@@ -278,8 +277,14 @@ Saznaj više
           once: true,
           offset: 100
         });
+        console.log('AOS animations initialized successfully');
+      } else {
+        console.log('AOS library not available');
       }
     }
+</script>
+<script async src="https://unpkg.com/aos@2.3.1/dist/aos.js" onload="initAOS()"></script>
+<script>
     
     setTimeout(() => {
       if (typeof AOS === 'undefined') {
